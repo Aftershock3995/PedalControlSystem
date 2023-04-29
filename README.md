@@ -1,5 +1,5 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/Aftershock3995/ArduinoCodeSystem/total?color=%23ff0000&logo=GitHub) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Aftershock3995/ArduinoCodeSystem?color=%23ff0000&logo=GitHub) 
-# ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `AccelStepper Pedal Controller`
+# ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `Pedal Controller Beta Code`
 
 
 This code controls a set of pedals using AccelStepper library with Arduino Uno. The pedals can be moved to their back and front limits and can read the load cell values. The following are the features of this code:
