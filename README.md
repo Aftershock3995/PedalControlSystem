@@ -10,14 +10,14 @@ Load cell values can be read for each pedal.
 Pedals can be homed by moving them to the back and front limit switches.
 The pedal settings can be adjusted in the code, such as maximum speed, acceleration, force, spring constant, and steps per revolution.
 
-# ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `Installation`
+## ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `Installation`
 Download and install the Arduino IDE.
 Connect the Arduino board to your computer.
 Open the .ino file in the Arduino IDE.
 Compile and upload the code to the board.
 Connect the stepper motors, encoders, limit switches, and load cells to the appropriate pins on the board.
 
-# ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `Usage`
+## ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `Usage`
 Power on the board.
 Press the pedal to move it forward.
 Release the pedal to stop it.
@@ -25,7 +25,7 @@ The load cell value for each pedal is displayed in the serial monitor.
 To home the pedals, run the homePedals() function. (currently N/D)
 Adjust the pedal settings in the code if necessary.
 
-# ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `Credits`
+## ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `Credits`
 This code was created by [Aftershock].
 The code uses the following libraries:
 
