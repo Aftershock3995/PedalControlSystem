@@ -26,7 +26,7 @@ To home the pedals, run the homePedals() function. (currently N/D)
 Adjust the pedal settings in the code if necessary.
 
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `Credits`
-This code was created by [Aftershock].
+This code was created by Aftershock.
 The code uses the following libraries:
 
 [AccelStepper](https://www.airspayce.com/mikem/arduino/AccelStepper/)
