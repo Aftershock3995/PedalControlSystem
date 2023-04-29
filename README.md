@@ -1,4 +1,4 @@
-# <span style="color:red">AccelStepper Pedal Controller</span>
+<span style="color:red">AccelStepper Pedal Controller</span>
 
 This code controls a set of pedals using AccelStepper library with Arduino Uno. The pedals can be moved to their back and front limits and can read the load cell values. The following are the features of this code:
 
