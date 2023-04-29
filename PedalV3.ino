@@ -172,6 +172,20 @@ int readLoadCellValue(int loadCellPin)
 
 void loop()
 {
+  
+  // Get the current position of each pedal and print it to serial
+  pedal1Position = pedal1.currentPosition();
+  Serial.print("Pedal 1 Position: ");
+  Serial.println(pedal1Position);
+
+  pedal2Position = pedal2.currentPosition();
+  Serial.print("Pedal 2 Position: ");
+  Serial.println(pedal2Position);
+
+  pedal3Position = pedal3.currentPosition();
+  Serial.print("Pedal 3 Position: ");
+  Serial.println(pedal3Position);
+  
   // Read the load cell values for each pedal
 
   pedal1LoadCellValue = readLoadCellValue(PEDAL_1_LOAD_CELL_PIN);
