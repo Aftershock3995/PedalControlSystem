@@ -2,14 +2,14 @@
 #include <Encoder.h>
 #include <FastAccelStepper.h>
 
-// Pedal_1 settings
+// Pedal_1_settings
 #define PEDAL1_STEPS_PER_REV 200
 #define PEDAL1_MAX_SPEED 1000
 #define PEDAL1_MAX_ACCEL 500
 #define PEDAL1_MAX_FORCE 1000
 #define PEDAL1_SPRING_CONSTANT 100
 
-// Pedal_1_Pin assignments
+// Pedal_1_Pin_assignments
 #define PEDAL_1_STEP_PIN 2
 #define PEDAL_1_DIR_PIN 3
 #define PEDAL_1_ENC_A_PIN 4
@@ -18,14 +18,14 @@
 #define PEDAL_1_LIMIT_SWITCH_FRONT_PIN 7
 #define PEDAL_1_LOAD_CELL_PIN A0
 
-// Pedal_2 settings
+// Pedal_2_settings
 #define PEDAL2_STEPS_PER_REV 200
 #define PEDAL2_MAX_SPEED 1000
 #define PEDAL2_MAX_ACCEL 500
 #define PEDAL2_MAX_FORCE 1000
 #define PEDAL2_SPRING_CONSTANT 100
 
-// Pedal_2_Pin assignments
+// Pedal_2_Pin_assignments
 #define PEDAL_2_STEP_PIN 8
 #define PEDAL_2_DIR_PIN 9
 #define PEDAL_2_ENC_A_PIN 10
@@ -34,14 +34,14 @@
 #define PEDAL_2_LIMIT_SWITCH_FRONT_PIN 13
 #define PEDAL_2_LOAD_CELL_PIN A1
 
-// Pedal_3 settings
+// Pedal_3_settings
 #define PEDAL3_STEPS_PER_REV 200
 #define PEDAL3_MAX_SPEED 1000
 #define PEDAL3_MAX_ACCEL 500
 #define PEDAL3_MAX_FORCE 1000
 #define PEDAL3_SPRING_CONSTANT 100
 
-// Pedal_3_Pin assignments
+// Pedal_3_Pin_assignments
 #define PEDAL_3_STEP_PIN A2
 #define PEDAL_3_DIR_PIN A3
 #define PEDAL_3_ENC_A_PIN A4
