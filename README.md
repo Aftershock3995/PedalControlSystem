@@ -22,7 +22,7 @@ Power on the board.
 Press the pedal to move it forward.
 Release the pedal to stop it.
 The load cell value for each pedal is displayed in the serial monitor.
-To home the pedals, run the homePedals() function. (currently N/D)
+To home the pedals, run the homePedals() function (currently N/D).
 Adjust the pedal settings in the code if necessary.
 
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `Credits`
