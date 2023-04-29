@@ -1,4 +1,4 @@
-![GitHub all releases](https://img.shields.io/github/downloads/Aftershock3995/ArduinoCodeSystem/total?color=%23ff0000&logo=GitHub) 
+![GitHub all releases](https://img.shields.io/github/downloads/Aftershock3995/ArduinoCodeSystem/total?color=%23ff0000&logo=GitHub) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Aftershock3995/ArduinoCodeSystem?color=%23ff0000&logo=GitHub) 
 # ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `AccelStepper Pedal Controller`
 
 
