@@ -7,8 +7,6 @@
 #define PEDAL1_MAX_ACCEL 500
 #define PEDAL1_MAX_FORCE 1000
 #define PEDAL1_SPRING_CONSTANT 100
-#define PEDAL1_MIN_ENCODER_POSITION 0
-#define PEDAL1_MAX_ENCODER_POSITION 1000
 
 // Pedal_1_Pin_assignments
 #define PEDAL_1_STEP_PIN 2
@@ -25,8 +23,6 @@
 #define PEDAL2_MAX_ACCEL 500
 #define PEDAL2_MAX_FORCE 1000
 #define PEDAL2_SPRING_CONSTANT 100
-#define PEDAL2_MIN_ENCODER_POSITION 0
-#define PEDAL2_MAX_ENCODER_POSITION 1000
 
 // Pedal_2_Pin_assignments
 #define PEDAL_2_STEP_PIN 8
@@ -43,8 +39,6 @@
 #define PEDAL3_MAX_ACCEL 500
 #define PEDAL3_MAX_FORCE 1000
 #define PEDAL3_SPRING_CONSTANT 100
-#define PEDAL3_MIN_ENCODER_POSITION 0
-#define PEDAL3_MAX_ENCODER_POSITION 1000
 
 // Pedal_3_Pin_assignments
 #define PEDAL_3_STEP_PIN A2
@@ -264,30 +258,30 @@ void loop()
   int pedal3EncoderValue = pedal3Encoder.read();
 
   // Check if any pedal has reached the maximum or minimum encoder position
-  if (pedal1EncoderValue >= MAX_ENCODER_POSITION)
+  if (pedal1EncoderValue >= PEDAL1_MAX_ENCODER_POSITION)
   {
-    pedal1.moveTo(MAX_ENCODER_POSITION);
+    pedal1.moveTo(PEDAL1_MAX_ENCODER_POSITION);
   }
-  else if (pedal1EncoderValue <= MIN_ENCODER_POSITION)
+  else if (pedal1EncoderValue <= PEDAL1_MIN_ENCODER_POSITION)
   {
-    pedal1.moveTo(MIN_ENCODER_POSITION);
-  }
-
-  if (pedal2EncoderValue >= MAX_ENCODER_POSITION)
-  {
-    pedal2.moveTo(MAX_ENCODER_POSITION);
-  }
-  else if (pedal2EncoderValue <= MIN_ENCODER_POSITION)
-  {
-    pedal2.moveTo(MIN_ENCODER_POSITION);
+    pedal1.moveTo(PEDAL1_MIN_ENCODER_POSITION);
   }
 
-  if (pedal3EncoderValue >= MAX_ENCODER_POSITION)
+  if (pedal2EncoderValue >= PEDAL2_MAX_ENCODER_POSITION)
   {
-    pedal3.moveTo(MAX_ENCODER_POSITION);
+    pedal2.moveTo(PEDAL2_MAX_ENCODER_POSITION);
   }
-  else if (pedal3EncoderValue <= MIN_ENCODER_POSITION)
+  else if (pedal2EncoderValue <= PEDAL2_MIN_ENCODER_POSITION)
   {
-    pedal3.moveTo(MIN_ENCODER_POSITION);
+    pedal2.moveTo(PEDAL2_MIN_ENCODER_POSITION);
+  }
+
+  if (pedal3EncoderValue >= PEDAL3_MAX_ENCODER_POSITION)
+  {
+    pedal3.moveTo(PEDAL3_MAX_ENCODER_POSITION);
+  }
+  else if (pedal3EncoderValue <= PEDAL3_MIN_ENCODER_POSITION)
+  {
+    pedal3.moveTo(PEDAL3_MIN_ENCODER_POSITION);
   }
 }
