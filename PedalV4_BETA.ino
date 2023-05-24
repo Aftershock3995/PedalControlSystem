@@ -82,10 +82,13 @@ void setup()
   // Home each pedal
   Serial.println("Homing pedal 1...");
   homePedal1();
+  delay(3000);
   Serial.println("Homing pedal 2...");
   homePedal2();
+  delay(3000);
   Serial.println("Homing pedal 3...");
   homePedal3();
+  delay(3000);
 
   // Initialize limit switches as inputs
   pinMode(PEDAL_1_LIMIT_SWITCH_BACK_PIN, INPUT_PULLUP);
