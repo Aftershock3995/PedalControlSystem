@@ -261,6 +261,10 @@ void loop()
   int pedal3EncoderValue = pedal3Encoder.read();
 
   // Check if any pedal has reached the maximum or minimum encoder position
+  
+  if (pedal1EncoderValue = PEDAL1_MAX_ENCODER_POSITION)
+  {
+    9
   if (pedal1EncoderValue >= PEDAL1_MAX_ENCODER_POSITION)
   {
     pedal1.moveTo(PEDAL1_MAX_ENCODER_POSITION);
