@@ -79,7 +79,7 @@ void setup()
   // Initialize serial communication
   Serial.begin(9600);
 
-  // Home each pedal one at a time
+  // Home each pedal
   Serial.println("Homing pedal 1...");
   homePedal1();
   Serial.println("Homing pedal 2...");
