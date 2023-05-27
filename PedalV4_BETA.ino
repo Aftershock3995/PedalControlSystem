@@ -104,14 +104,6 @@ void setup()
   pedal3.setMaxSpeed(PEDAL3_MAX_SPEED);
 }
 
-// Define maximum and minimum encoder positions for each pedal
-int PEDAL1_MAX_ENCODER_POSITION = 0;
-int PEDAL1_MIN_ENCODER_POSITION = 0;
-int PEDAL2_MAX_ENCODER_POSITION = 0;
-int PEDAL2_MIN_ENCODER_POSITION = 0;
-int PEDAL3_MAX_ENCODER_POSITION = 0;
-int PEDAL3_MIN_ENCODER_POSITION = 0;
-
 void homePedal1()
 {
   // Move pedal 1 towards the back switch
@@ -122,8 +114,13 @@ void homePedal1()
   }
   pedal1.setCurrentPosition(0);
 
+  // Output current encoder position
+  int currentEncoderPos = pedal1Encoder.read();
+  Serial.print("Pedal 1 Back Limit Switch Position: ");
+  Serial.println(currentEncoderPos);
+
   // Set the maximum encoder position as the back switch
-  PEDAL1_MAX_ENCODER_POSITION = pedal1Encoder.read();
+  PEDAL1_MAX_ENCODER_POSITION = currentEncoderPos;
 
   // Move pedal 1 towards the front switch
   pedal1.setSpeed(PEDAL1_MAX_SPEED);
@@ -133,8 +130,13 @@ void homePedal1()
   }
   pedal1.setCurrentPosition(pedal1.targetPosition());
 
+  // Output current encoder position
+  currentEncoderPos = pedal1Encoder.read();
+  Serial.print("Pedal 1 Front Limit Switch Position: ");
+  Serial.println(currentEncoderPos);
+
   // Set the minimum encoder position as the front switch
-  PEDAL1_MIN_ENCODER_POSITION = pedal1Encoder.read();
+  PEDAL1_MIN_ENCODER_POSITION = currentEncoderPos;
 }
 
 // Repeat the same logic for the other two pedals
@@ -146,7 +148,13 @@ void homePedal2()
     pedal2.runSpeed();
   }
   pedal2.setCurrentPosition(0);
-  PEDAL2_MAX_ENCODER_POSITION = pedal2Encoder.read();
+
+  // Output current encoder position
+  int currentEncoderPos = pedal2Encoder.read();
+  Serial.print("Pedal 2 Back Limit Switch Position: ");
+  Serial.println(currentEncoderPos);
+
+  PEDAL2_MAX_ENCODER_POSITION = currentEncoderPos;
 
   pedal2.setSpeed(PEDAL2_MAX_SPEED);
   while (digitalRead(PEDAL_2_LIMIT_SWITCH_FRONT_PIN) == HIGH)
@@ -154,7 +162,13 @@ void homePedal2()
     pedal2.runSpeed();
   }
   pedal2.setCurrentPosition(pedal2.targetPosition());
-  PEDAL2_MIN_ENCODER_POSITION = pedal2Encoder.read();
+
+  // Output current encoder position
+  currentEncoderPos = pedal2Encoder.read();
+  Serial.print("Pedal 2 Front Limit Switch Position: ");
+  Serial.println(currentEncoderPos);
+
+  PEDAL2_MIN_ENCODER_POSITION = currentEncoderPos;
 }
 
 void homePedal3()
@@ -165,7 +179,13 @@ void homePedal3()
     pedal3.runSpeed();
   }
   pedal3.setCurrentPosition(0);
-  PEDAL3_MAX_ENCODER_POSITION = pedal3Encoder.read();
+
+  // Output current encoder position
+  int currentEncoderPos = pedal3Encoder.read();
+  Serial.print("Pedal 3 Back Limit Switch Position: ");
+  Serial.println(currentEncoderPos);
+
+  PEDAL3_MAX_ENCODER_POSITION = currentEncoderPos;
 
   pedal3.setSpeed(PEDAL3_MAX_SPEED);
   while (digitalRead(PEDAL_3_LIMIT_SWITCH_FRONT_PIN) == HIGH)
@@ -173,9 +193,14 @@ void homePedal3()
     pedal3.runSpeed();
   }
   pedal3.setCurrentPosition(pedal3.targetPosition());
-  PEDAL3_MIN_ENCODER_POSITION = pedal3Encoder.read();
-}
 
+  // Output current encoder position
+  currentEncoderPos = pedal3Encoder.read();
+  Serial.print("Pedal 3 Front Limit Switch Position: ");
+  Serial.println(currentEncoderPos);
+
+  PEDAL3_MIN_ENCODER_POSITION = currentEncoderPos;
+}
 
 int readLoadCellValue(int loadCellPin)
 {
