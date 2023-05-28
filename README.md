@@ -12,12 +12,7 @@ Compile and upload the code to the board.
 Connect the stepper motors, encoders, limit switches, and load cells to the appropriate pins on the board.
 
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `Usage`
-Power on the board.
-Press the pedal to move it forward.
-Release the pedal to stop it.
-The load cell value for each pedal is displayed in the serial monitor.
-To home the pedals, run the homePedals() function (currently N/D).
-Adjust the pedal settings in the code if necessary.
+N/D
 
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `App early alpha preview`
 
