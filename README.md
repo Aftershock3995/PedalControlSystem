@@ -15,7 +15,7 @@ Connect the stepper motors, encoders, limit switches, and load cells to the appr
 N/D
 
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `App early alpha preview`
-     
+
 [![Watch the video](https://cdn.discordapp.com/attachments/868329637602816081/1112417905699725422/image.png)](https://youtu.be/Lxjg9_fh-3s)
 
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `Credits`
