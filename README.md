@@ -19,7 +19,7 @@ The load cell value for each pedal is displayed in the serial monitor.
 To home the pedals, run the homePedals() function (currently N/D).
 Adjust the pedal settings in the code if necessary.
 
-### ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `App early alpha`
+### ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `App early alpha preview`
 
 <img src="https://cdn.discordapp.com/attachments/868329637602816081/1112417905699725422/image.png"
      alt="Markdown Monster icon"
