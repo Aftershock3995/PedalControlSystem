@@ -16,7 +16,7 @@ N/D
 
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `App early alpha preview`
 
-[![Watch the video](https://media.discordapp.net/attachments/868329637602816081/1112905344646131803/image.png)](https://www.youtube.com/watch?v=iks4j7zyanM)
+[![Watch the video](https://media.discordapp.net/attachments/868329637602816081/1112906816712609813/image.png)](https://www.youtube.com/watch?v=iks4j7zyanM)
 
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) `Credits`
 This code was created by Aftershock.
