@@ -1,0 +1,5 @@
+C:\Users\Jordan Chrestensen\downloads\pedal\obj\Debug\net7.0\pedal.csproj.AssemblyReference.cache
+C:\Users\Jordan Chrestensen\downloads\pedal\obj\Debug\net7.0\pedal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jordan Chrestensen\downloads\pedal\obj\Debug\net7.0\pedal.AssemblyInfoInputs.cache
+C:\Users\Jordan Chrestensen\downloads\pedal\obj\Debug\net7.0\pedal.AssemblyInfo.cs
+C:\Users\Jordan Chrestensen\downloads\pedal\obj\Debug\net7.0\pedal.csproj.CoreCompileInputs.cache

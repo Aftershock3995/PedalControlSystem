@@ -1,0 +1,14 @@
+C:\Users\Jordan Chrestensen\Downloads\pedal\bin\Debug\net48\pedal.exe.config
+C:\Users\Jordan Chrestensen\Downloads\pedal\bin\Debug\net48\pedal.exe
+C:\Users\Jordan Chrestensen\Downloads\pedal\bin\Debug\net48\pedal.pdb
+C:\Users\Jordan Chrestensen\Downloads\pedal\bin\Debug\net48\Newtonsoft.Json.dll
+C:\Users\Jordan Chrestensen\Downloads\pedal\bin\Debug\net48\System.IO.Ports.dll
+C:\Users\Jordan Chrestensen\Downloads\pedal\obj\Debug\net48\pedal.csproj.AssemblyReference.cache
+C:\Users\Jordan Chrestensen\Downloads\pedal\obj\Debug\net48\pedal.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jordan Chrestensen\Downloads\pedal\obj\Debug\net48\pedal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jordan Chrestensen\Downloads\pedal\obj\Debug\net48\pedal.AssemblyInfoInputs.cache
+C:\Users\Jordan Chrestensen\Downloads\pedal\obj\Debug\net48\pedal.AssemblyInfo.cs
+C:\Users\Jordan Chrestensen\Downloads\pedal\obj\Debug\net48\pedal.csproj.CoreCompileInputs.cache
+C:\Users\Jordan Chrestensen\Downloads\pedal\obj\Debug\net48\pedal.csproj.CopyComplete
+C:\Users\Jordan Chrestensen\Downloads\pedal\obj\Debug\net48\pedal.exe
+C:\Users\Jordan Chrestensen\Downloads\pedal\obj\Debug\net48\pedal.pdb
